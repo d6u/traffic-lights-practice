@@ -1,0 +1,47 @@
+.LightsOne {
+  padding: 50px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.LightsOne-lightbox {
+  background-color: gray;
+  height: 400px;
+  width: 150px;
+  border-radius: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.LightsOne-light {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+}
+
+.LightsOne-green {
+  background-color: green;
+}
+
+.LightsOne-yellow {
+  background-color: yellow;
+}
+
+.LightsOne-red {
+  background-color: red;
+}
+
+.LightsOne-light-off {
+  background-color: black;
+}
+
+.LightsOne-autoButton {
+  margin-top: 50px;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
